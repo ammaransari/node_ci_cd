@@ -15,5 +15,6 @@ spec:
       containers:
         - name: app
           image: ammar86048/cicd_app
+          imagePullPolicy: Always
           ports:
             - containerPort: 3000
